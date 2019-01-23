@@ -1,0 +1,10 @@
+/****** new process, rather than the file, this table can be queried for the sitestructure data.  the table is refreshed every morning using a batch process  ******/
+SELECT [uri]
+      ,[parentweburi]
+      ,[title]
+      ,[description]
+      ,[locale]
+      ,[template]
+      ,[size]
+      ,[lastmodified]
+  FROM [SPMigration].[dbo].[siteStructure]
